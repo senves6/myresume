@@ -120,7 +120,7 @@ h1, h2, h4 {
 }
 
 .table {
-    width: 50%;
+    width: 100%;
 }
 
 .table td {
@@ -132,12 +132,14 @@ h1, h2, h4 {
      font-weight: bold;
  }
 
- .table td:nth-child(2) {
+ .table td:nth-child(2),
+ .table td:last-child {
      font-style: italic;
  }
 
 .table td:last-child {
-    font-style: italic;
+    padding-left: 0;
+    text-align: center;
 }
  
 .footer {
