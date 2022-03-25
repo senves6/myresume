@@ -228,6 +228,11 @@ a:visited {
     outline: none;
 }
 
+.form input::placeholder,
+.form textarea::placeholder {
+    color: rgba(139, 69, 19, .5);
+}
+
 .btn {
     font-family: inherit;
     color: azure;
