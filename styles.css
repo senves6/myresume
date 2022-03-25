@@ -124,7 +124,10 @@ h1, h2, h4 {
 }
 
 .table td {
-    border: 2px solid darkblue; 
+    border: none;
+    border-top: 1px solid azure;
+    border-left: 4px solid darkblue;
+    border-bottom: 2px solid darkblue; 
     padding: 5px 15px; 
  }
 
@@ -140,6 +143,9 @@ h1, h2, h4 {
 .table td:last-child {
     padding-left: 0;
     text-align: center;
+    border-bottom: 2px solid darkblue; 
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
 }
  
 .footer {
